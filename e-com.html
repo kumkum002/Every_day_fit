@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverydayFits ! e-com wesite</title>
+    <link rel="stylesheet" href="e-com.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="webiconeNew2.png" width="150px" alt="error">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="">home</a></li>
+                        <li><a href="">products</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">account</a></li>
+
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" hight="30px" alt="">
+                <img src="menuicon.png"  class="menu-icon" 
+                onclick="menutoggle()">
+                
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Life<br> A New Style !</h1>
+                    <p>Success is not always about greatness. its about consistency.<br>consistent hard work gains
+                        success.greatness will come.</p>
+                    <a href="" class="btn">explore now &#xf0a9;</a>
+                </div>
+                <div class="col-2">
+                    <img src="new4.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="shoeimg.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="watchimg.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="dressimg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature products -->
+    <div class="small-container">
+        <h2 class="title">Featured products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="tops1.jpg" alt="">
+                <h4>White printed top</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+
+                </div>
+                <p>RS 699</p>
+            </div>
+            <div class="col-4">
+                <img src="dress1.jpg" alt="">
+                <h4>Green long dress</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+
+                </div>
+                <p>RS 699</p>
+            </div>
+
+            <div class="col-4">
+                <img src="pant1.jpg" alt="">
+                <h4> Trouser pant</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+
+                </div>
+                <p>RS 699</p>
+            </div>
+
+            <div class="col-4">
+                <img src="shoe1.jpg" alt="">
+                <h4> Classy belli shoe</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+
+                </div>
+                <p>RS 699</p>
+            </div>
+             </div>
+             <h2  class="title">Latest products</h2>
+             <div class="row">
+                <div class="col-4">
+                    <img src="tops2.jpg" alt="">
+                    <h4>Gray skiny top</h4>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+    
+    
+                    </div>
+                    <p>RS 699</p>
+                </div>
+                <div class="col-4">
+                    <img src="dress2.jpg" alt="">
+                    <h4>black & white polka dress</h4>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+    
+    
+                    </div>
+                    <p>RS 699</p>
+                </div>
+    
+                <div class="col-4">
+                    <img src="pant2.jpg" alt="">
+                    <h4> printed shorts</h4>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+    
+    
+                    </div>
+                    <p>RS 699</p>
+                </div>
+    
+                <div class="col-4">
+                    <img src="shoe2.jpg" alt="">
+                    <h4>nude shoe</h4>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+    
+    
+                    </div>
+                    <p>RS 699</p>
+                </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-4">
+                        <img src="tops3.jpg" alt="">
+                        <h4>White graphics top</h4>
+                        <div class="ratting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+        
+        
+                        </div>
+                        <p>RS 699</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="dress3.jpg" alt="">
+                        <h4>pink long dress</h4>
+                        <div class="ratting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+        
+        
+                        </div>
+                        <p>RS 699</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img src="pant3.jpg" alt="">
+                        <h4> high waist jeans pant</h4>
+                        <div class="ratting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+        
+        
+                        </div>
+                        <p>RS 699</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img src="shoe3.jpg" alt="">
+                        <h4> Classy heel shoe</h4>
+                        <div class="ratting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+        
+        
+                        </div>
+                        <p>RS 699</p>
+                    </div>
+                     </div>
+
+    </div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+               
+                <div class="col-0">
+                    <img src="watch1.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively available on kukustore</p>
+                    <h1>Sonata classy watch</h1>
+                    <small>Watch for Ladies Gift Idea Wrist Unusual Fashion Nice Real Quartz Women Watches With Price With Outfit With Price Unique Ysl Watches Women Women Watches Gift Jewelry Watches For Women Cartier Watches Women Aesthetic Expensive Watches For Women In Trend Women Watches Brands Design Women Watches Classy Must Have Quality Vintage Expensive Nice Design Small Elegant Minimalistic Women Watches Waterproof Women Watches.</small><br>
+                    <a href=""class="btn">Buy Now &#8594;</a>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- -------------testimonial------------ -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores doloremque ad eius dolorem? Assumenda sunt iusto aspernatur voluptate dolorum totam natus laudantium.</p>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i><br>
+                        <img src="user3.jpg" alt="">
+                        <h3>lace adam</h3>
+    
+    
+                    </div>
+                </div>
+                <div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores doloremque ad eius dolorem? Assumenda sunt iusto aspernatur voluptate dolorum totam natus laudantium.</p>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i><br>
+                        <img src="user2.jpg" alt="">
+                        <h3>kuse nerce</h3>
+    
+    
+                    </div>
+                </div><div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores doloremque ad eius dolorem? Assumenda sunt iusto aspernatur voluptate dolorum totam natus laudantium.</p>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i><br>
+                        <img src="user1.jpg" alt="">
+                        <h3>salew race</h3>
+    
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------brands--------- -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+            <div class="col-5">
+                <img src="godrejlogo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="oppologo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="cocacolalogo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="paypallogo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="philipslogo.png" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- ---------footer------ -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3>download our app</h3>
+                    <p>download app for android and ios mobile phone</p><br>
+                    <img src="playstoreimg.jpg" alt="">
+                    <img src="appstore img.jpg" alt="">
+                </div>
+                <div class="col-6">
+                  <img src="webicon.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, maxime rem beatae repellat numquam exercitationem.</p>
+                </div>
+                <div class="col-6">
+                    <h3>usefull links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>blogpost</li>
+                        <li>return policy</li>
+                        <li>join affiliate</li>
+
+                    </ul>
+                    
+                </div>
+                <div class="col-6">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li>facebook</li>
+                        <li>twiter</li>
+                        <li>instagram</li>
+
+                    </ul>
+                    
+                </div>
+            </div>
+            <hr>
+            <P class="copyright">copyright 2020-kumkum mondal</P>
+        </div>
+    </div>
+    <!-- -------------js for toggle menu--------- -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
